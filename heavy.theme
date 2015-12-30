@@ -20,6 +20,25 @@ use Drupal\file\Plugin\Core\Entity\FileInterface;
  * Functions to support theming in the beginning theme.
  */
 
+
+/**
+ * Implements hook_css_alter().
+ */
+function heavy_css_alter(&$css) {
+  // Add CDN Google fonts.
+  $googlefonts = 'https://fonts.googleapis.com/css?family=Roboto:300,400,700,900';
+  $css[$googlefonts] = array(
+    'data' => $googlefonts,
+    'type' => 'external',
+    'every_page' => TRUE,
+    'media' => 'all',
+    'preprocess' => FALSE,
+    'group' => CSS_AGGREGATE_THEME,
+    'browsers' => array('IE' => TRUE, '!IE' => TRUE),
+    'weight' => 2,
+  );
+}
+
 /**
  * Implements hook_preprocess_HOOK() for page templates.
  */
