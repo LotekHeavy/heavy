@@ -107,8 +107,10 @@ textarea {
   padding: 9px 12px;
   display: inline-block;
   border: 0;
+  /*
   font-family: Arial,sans-serif;
   font-weight: bold;
+  */
   cursor: pointer;
   width: auto;
   -webkit-transition: all .1s ease-in-out;
@@ -116,11 +118,16 @@ textarea {
   -ms-transition: all .1s ease-in-out;
   -o-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
-  color: white;
-  background: #29a9df;
+  /*
+  color: #428bca;
+  background: transparent;
+  */
 }
 .field--type-link .field__item a:hover {
-  background-color: #aaa;
+  /*
+  background-color: transparent;
+  color: #2a6496;
+  */
 }
 .tabs {
   margin-top: 20px;
@@ -178,7 +185,7 @@ textarea {
   font-size: 18px;
   text-transform: uppercase;
 }
-.book-add-child a,.book-printer a,.book-pager__item--next a,.node-readmore a,.comment-comments a,.comment-add a{
+.book-add-child a,.book-printer a,.book-pager__item--next a,.book-pager__item--center a,.book-pager__item--previous a,.node-readmore a,.comment-comments a,.comment-add a{
   background: rgb(41, 169, 223);
   color: #fff;
   padding: 8px;
@@ -216,9 +223,9 @@ textarea {
   padding: 10px 6px 10px 4px;
   text-decoration: none;
 }
-.book-add-child a:hover,.book-printer a:hover,.book-pager__item--next a:hover,.node-readmore a:hover,.comment-comments a:hover,.comment-add a:hover {
+.book-add-child a:hover,.book-printer a:hover,.book-pager__item--next a:hover,.book-pager__item--center a:hover,.book-pager__item--previous a:hover,.node-readmore a:hover,.comment-comments a:hover,.comment-add a:hover {
   color: #fff;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 .node-readmore a:before {
   font-family: FontAwesome;
@@ -394,7 +401,7 @@ table a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: black;
-  font-size: 32px;
+  font-size: 28px;
   padding: 0 15px 0 0;
   line-height: 70px;
 }

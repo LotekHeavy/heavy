@@ -1,0 +1,15 @@
+
+.ds-2col-stacked-fluid > .group-left,
+.ds-2col-stacked-fluid > .group-right {
+    width: 48%;
+}
+
+@media all and (max-width: 640px) {
+    .ds-2col-stacked-fluid .group-right {
+        float:none;
+        width:100%;
+    }
+    .ds-2col-stacked-fluid .group-left {
+        width:100%;
+    }
+}

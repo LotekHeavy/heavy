@@ -115,7 +115,10 @@ ul.circle {
 ul.disc {
   list-style: disc outside;
 }
-
+.container .navbar-header {
+    padding-left: 0;
+    padding-right: 0;
+}
 .navbar {
   background-color: white !important;
   border-bottom: 5px solid #f6f6f6 !important;
@@ -127,7 +130,6 @@ ul.disc {
   padding: 0;
   margin: 0;
 }
-
 .navbar .navbar-brand {
   color: #ddd !important;
   font-size: 28px;
@@ -277,7 +279,7 @@ ul.disc {
 }
 #page-title #page-title-inner h2,#page-title #page-title-inner h1 {
   display: inline-block;
-  font-family: 'Hind', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
   padding: 10px 20px 5px 20px !important;
   font-size: 30px;
@@ -578,7 +580,7 @@ html[xmlns] .slides {
   text-align:left;
 }
 h3 a {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal!important;
   color: #666;
   margin: 0;

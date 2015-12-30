@@ -19,7 +19,8 @@ global-css:
       css/page.css: {}
       css/style.min.css: {}
       css/parallax-slider.css: {}
-  js:  
+      css/ds.css: {}
+  js:
     js/jquery.isotope.min.js: {}
     js/jquery.imagesloaded.js: {}
     js/flexslider.js: {}
