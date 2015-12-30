@@ -1,0 +1,32 @@
+name: Heavy
+type: theme
+base theme: classy
+description: Bootstrap Responsive Theme For Heavy
+package: core
+version: '8.x-1.0'
+core: '8.x'
+libraries:
+  - heavy/global-css
+  - heavy/global-js
+  - heavy/base
+  - heavy/heavy-components
+  - heavy/heavy-bootstrap
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  page_title: 'Page Title'
+  banner: 'Banner'
+  highlighted: 'Highlighted'
+  content_top: 'Content Top'
+  help: 'Help'
+  breadcrumb: 'Breadcrumb'
+  content: 'content'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  content_bottom: 'Content Bottom'
+  footer_menu: 'Footer Menu'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  footer_third: 'Fooder Third'
+  footer_bottom: 'Fooder Bottom'
+
