@@ -27,7 +27,7 @@ textarea {
   height: auto;
   max-width: 100%;
   max-height: 458px;
-  margin-left: 8%;
+  /*margin-left: 8%;*/
 }
 .content_top_button {
   padding: 10px 25px !important;
@@ -87,14 +87,16 @@ textarea {
 
 /*----- Start:layout style -----*/
 
+.field {
+    margin-bottom: 8px;
+
+}
 .field__label {
-  font-size: 18px;
-  line-height: 32px;
   font-family: "Droid Sans"!important;
-  font-weight: normal!important;
   color: #666;
   margin: 0;
   padding: 0;
+  clear: left;
 }
 .layout {
   margin: 5px 0px 5px 0px;
@@ -104,13 +106,8 @@ textarea {
 
 }
 .field--type-link .field__item a {
-  padding: 9px 12px;
   display: inline-block;
   border: 0;
-  /*
-  font-family: Arial,sans-serif;
-  font-weight: bold;
-  */
   cursor: pointer;
   width: auto;
   -webkit-transition: all .1s ease-in-out;
@@ -118,10 +115,6 @@ textarea {
   -ms-transition: all .1s ease-in-out;
   -o-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
-  /*
-  color: #428bca;
-  background: transparent;
-  */
 }
 .field--type-link .field__item a:hover {
   /*
@@ -389,6 +382,7 @@ table th    {
 }
 table tr:hover,table tr:hover a {
   background:#006699;
+  background: #09AFDF;
   color:white;
 }
 table a:hover {
