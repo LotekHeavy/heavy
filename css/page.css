@@ -175,7 +175,7 @@ textarea {
   color: #666;
   margin: 0;
   padding: 0;
-  font-size: 18px;
+  /*font-size: 18px;*/
   text-transform: uppercase;
 }
 .book-add-child a,.book-printer a,.book-pager__item--next a,.book-pager__item--center a,.book-pager__item--previous a,.node-readmore a,.comment-comments a,.comment-add a{
@@ -196,7 +196,8 @@ textarea {
 }
 .comment-delete a:hover,.comment-edit a:hover,.comment-reply a:hover{
   color: #fff;
-  text-decoration:underline;
+  text-decoration: none;
+  background-color: #555;
 }
 .comment-delete a:before {
   font-family: FontAwesome;
@@ -218,7 +219,8 @@ textarea {
 }
 .book-add-child a:hover,.book-printer a:hover,.book-pager__item--next a:hover,.book-pager__item--center a:hover,.book-pager__item--previous a:hover,.node-readmore a:hover,.comment-comments a:hover,.comment-add a:hover {
   color: #fff;
-  text-decoration: underline;
+    text-decoration: none;
+  background-color: #555;
 }
 .node-readmore a:before {
   font-family: FontAwesome;
@@ -490,6 +492,9 @@ table a:hover {
   pointer-events: none;
   cursor: default;
 }
+.breadcrumb ol li:last-child {
+    display: none;
+}
 .breadcrumb ol li:first-child a {
   padding-left: 10px;
   background-color: hsla(198, 73%, 51%, 1) !important;
@@ -511,3 +516,25 @@ table a:hover {
 .breadcrumb ol li:last-child a:after { border: 0; }
 .breadcrumb ol li a:hover { background: hsla(198, 84%, 41%, 1); }
 .breadcrumb ol li a:hover:after { border-left-color: hsla(198, 84%, 41%, 1) !important; }
+
+
+/* CUSTOM */
+.field--name-field-tags .field__item {
+    display: inline;
+}
+.field--name-field-projektname  .field__item {
+    padding: 2px 4px;
+    margin-right: 8px;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    white-space: nowrap;
+    border-radius: 4px;
+
+}
+
+.view-header blockquote,
+blockquote.cite
+ {
+    color: #29a9df;
+    border-left-color: #29a9df;
+}

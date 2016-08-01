@@ -1,14 +1,14 @@
 /* Portfolio Page */
 
 .view_default {
-	width: 98%;
+    width: 98%;
    float: left;
    border: 5px solid #fff;
    overflow: hidden;
    position: relative;
    text-align: center;
    cursor: default;
-	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
     box-shadow: 0px 1px 1px rgba(0,0,0,.25);
 }
 .view_default  .mask,.view_default  .content {
@@ -23,7 +23,7 @@
    position: relative;
 }
 .view_default  h2 {
-	font-family: "Boogaloo" !important;
+    font-family: "Boogaloo" !important;
    text-transform: uppercase;
    color: #fff;
    text-align: center;
@@ -32,12 +32,12 @@
    padding: 10px;
    background: #99cc66;
    margin: 20px 0 0 0;
-	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
-	   -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
-		    box-shadow: 0px 1px 1px rgba(0,0,0,.25);	
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+       -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+            box-shadow: 0px 1px 1px rgba(0,0,0,.25);
 }
 .view_default  p {
-	font-family: 'Droid Sans';
+    font-family: 'Droid Sans';
    font-size: 12px;
    position: relative;
    color: #fff;
@@ -45,18 +45,18 @@
    text-align: center;
 }
 .view_default  a.info {
-	font-family: "Boogaloo" !important;	
+    font-family: "Boogaloo" !important;
    display: inline-block;
    text-decoration: none;
    padding: 7px 14px;
    background: #99cc66;
    color: #fff;
    text-transform: uppercase;
-	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
-	   -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
-		    box-shadow: 0px 1px 1px rgba(0,0,0,.25);
-	bottom: 20px;
-	position: relative;	
+    -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+       -moz-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+            box-shadow: 0px 1px 1px rgba(0,0,0,.25);
+    bottom: 20px;
+    position: relative;
 }
 .view_default  a.info:hover {
    -webkit-box-shadow: 0 0 5px #000;
@@ -118,11 +118,11 @@
    -o-transform: scale(1.1,1.1);
    -ms-transform: scale(1.1,1.1);
    transform: scale(1.1,1.1);
-	filter: blur(3px);
-	-webkit-filter: blur(3px);
-	-moz-filter: blur(3px);
-	-o-filter: blur(3px);
-	-ms-filter: blur(3px);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
 }
 .view-portfolio a.info {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -166,4 +166,8 @@
    transition-delay: 0.2s;
 }
 
-		
+.view a.colorbox img.image-style-foto-thumbnail:hover {
+    background: #555;
+    border-color: #555;
+}
+

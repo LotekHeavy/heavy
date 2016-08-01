@@ -40,23 +40,23 @@ h1 {
   line-height: 40px;
 }
 h2 {
-  font-size: 20px ;
+  font-size: 30px !important;
   line-height: 40px;
 }
 h3 {
-  font-size: 22px !important;
+  font-size: 24px !important;
   line-height: 32px !important;
 }
 h4 {
-  font-size: 13px !important;
+  font-size: 20px !important;
   line-height: 30px !important;
 }
 h5 {
-  font-size: 12px !important;
+  font-size: 16px !important;
   line-height: 26px !important;
 }
 h6 {
-  font-size: 11px !important;
+  font-size: 13px !important;
   line-height: 24px !important;
 }
 hr {
@@ -70,9 +70,9 @@ hr {
   margin-bottom: 19px;
 }
 .title h1, .title h2, .title h3, .title h4, .title h5, .title h6,.block h1,.sidebar .block h2,.block h2 {
-  border-bottom: 5px solid #29a9df!important;
+  /*border-bottom: 5px solid #29a9df!important;*/
   display: inline-block;
-  font-size: 20px;
+  /*font-size: 20px;*/
   line-height: 32px;
 }
 .sidebar .block h2,.block h2 {
@@ -172,6 +172,8 @@ ul.disc {
   padding: 22px;
   padding: 22px 15px \9;
 }
+
+
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   /*border-top: 4px solid #29a9df;*/
   border-top: 4px solid #29a9df;
@@ -182,6 +184,9 @@ ul.disc {
   border-top: 4px solid #09AFDF;
   background-color: #09AFDF !important;
   color: white ! important;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #555  !important;
 }
 .navbar-default .navbar-nav>.active>a .caret, .navbar-default .navbar-nav>.active>a:hover .caret, .navbar-default .navbar-nav>.active>a:focus .caret {
   border-top-color: white!important;
@@ -1421,6 +1426,7 @@ li.current {
   background: #29a9df;
   border: 1px solid #29a9df;
   color: white;
+  text-decoration: none;
 }
 .isotope-item {
   z-index: 2;
